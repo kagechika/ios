@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C614163190C70DC00535009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C614162190C70DC00535009 /* Foundation.framework */; };
+		6C614165190C70DC00535009 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C614164190C70DC00535009 /* CoreGraphics.framework */; };
+		6C614167190C70DC00535009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C614166190C70DC00535009 /* UIKit.framework */; };
+		6C61416D190C70DC00535009 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C61416B190C70DC00535009 /* InfoPlist.strings */; };
+		6C61416F190C70DC00535009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C61416E190C70DC00535009 /* main.m */; };
+		6C614173190C70DC00535009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C614172190C70DC00535009 /* AppDelegate.m */; };
+		6C614176190C70DC00535009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C614174190C70DC00535009 /* Main.storyboard */; };
+		6C614179190C70DC00535009 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C614178190C70DC00535009 /* FirstViewController.m */; };
+		6C61417C190C70DC00535009 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C61417B190C70DC00535009 /* SecondViewController.m */; };
+		6C61417E190C70DC00535009 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C61417D190C70DC00535009 /* Images.xcassets */; };
+		6C614185190C70DC00535009 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C614184190C70DC00535009 /* XCTest.framework */; };
+		6C614186190C70DC00535009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C614162190C70DC00535009 /* Foundation.framework */; };
+		6C614187190C70DC00535009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C614166190C70DC00535009 /* UIKit.framework */; };
+		6C61418F190C70DC00535009 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C61418D190C70DC00535009 /* InfoPlist.strings */; };
+		6C614191190C70DC00535009 /* PedometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C614190190C70DC00535009 /* PedometerTests.m */; };
+		6C61419F190C712900535009 /* Accelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C61419B190C712900535009 /* Accelerometer.m */; };
+		6C6141A0190C712900535009 /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C61419D190C712900535009 /* AccelerometerFilter.m */; };
+		6C6141A1190C712900535009 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C61419E190C712900535009 /* icon.png */; };
+		6C6141A3190C76AD00535009 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6141A2190C76AD00535009 /* CoreMotion.framework */; };
+		6C6141A5190C7E4200535009 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6141A4190C7E4200535009 /* MessageUI.framework */; };
+		6C6141A7190C832800535009 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6141A6190C832800535009 /* CoreLocation.framework */; };
+		6C6141A9190C833900535009 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6141A8190C833900535009 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C614188190C70DC00535009 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C614157190C70DC00535009 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C61415E190C70DC00535009;
+			remoteInfo = Pedometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C61415F190C70DC00535009 /* Pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C614162190C70DC00535009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C614164190C70DC00535009 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C614166190C70DC00535009 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C61416A190C70DC00535009 /* Pedometer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pedometer-Info.plist"; sourceTree = "<group>"; };
+		6C61416C190C70DC00535009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C61416E190C70DC00535009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C614170190C70DC00535009 /* Pedometer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pedometer-Prefix.pch"; sourceTree = "<group>"; };
+		6C614171190C70DC00535009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C614172190C70DC00535009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C614175190C70DC00535009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C614177190C70DC00535009 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6C614178190C70DC00535009 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6C61417A190C70DC00535009 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6C61417B190C70DC00535009 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6C61417D190C70DC00535009 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C614183190C70DC00535009 /* PedometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C614184190C70DC00535009 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6C61418C190C70DC00535009 /* PedometerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PedometerTests-Info.plist"; sourceTree = "<group>"; };
+		6C61418E190C70DC00535009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C614190190C70DC00535009 /* PedometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PedometerTests.m; sourceTree = "<group>"; };
+		6C61419A190C712900535009 /* Accelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accelerometer.h; sourceTree = "<group>"; };
+		6C61419B190C712900535009 /* Accelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accelerometer.m; sourceTree = "<group>"; };
+		6C61419C190C712900535009 /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerFilter.h; sourceTree = "<group>"; };
+		6C61419D190C712900535009 /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerFilter.m; sourceTree = "<group>"; };
+		6C61419E190C712900535009 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6C6141A2190C76AD00535009 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		6C6141A4190C7E4200535009 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6C6141A6190C832800535009 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6C6141A8190C833900535009 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C61415C190C70DC00535009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6141A9190C833900535009 /* MapKit.framework in Frameworks */,
+				6C6141A7190C832800535009 /* CoreLocation.framework in Frameworks */,
+				6C6141A5190C7E4200535009 /* MessageUI.framework in Frameworks */,
+				6C6141A3190C76AD00535009 /* CoreMotion.framework in Frameworks */,
+				6C614165190C70DC00535009 /* CoreGraphics.framework in Frameworks */,
+				6C614167190C70DC00535009 /* UIKit.framework in Frameworks */,
+				6C614163190C70DC00535009 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C614180190C70DC00535009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C614185190C70DC00535009 /* XCTest.framework in Frameworks */,
+				6C614187190C70DC00535009 /* UIKit.framework in Frameworks */,
+				6C614186190C70DC00535009 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C614156190C70DC00535009 = {
+			isa = PBXGroup;
+			children = (
+				6C61419A190C712900535009 /* Accelerometer.h */,
+				6C61419B190C712900535009 /* Accelerometer.m */,
+				6C61419C190C712900535009 /* AccelerometerFilter.h */,
+				6C61419D190C712900535009 /* AccelerometerFilter.m */,
+				6C61419E190C712900535009 /* icon.png */,
+				6C614168190C70DC00535009 /* Pedometer */,
+				6C61418A190C70DC00535009 /* PedometerTests */,
+				6C614161190C70DC00535009 /* Frameworks */,
+				6C614160190C70DC00535009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C614160190C70DC00535009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C61415F190C70DC00535009 /* Pedometer.app */,
+				6C614183190C70DC00535009 /* PedometerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C614161190C70DC00535009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C6141A8190C833900535009 /* MapKit.framework */,
+				6C6141A6190C832800535009 /* CoreLocation.framework */,
+				6C6141A4190C7E4200535009 /* MessageUI.framework */,
+				6C6141A2190C76AD00535009 /* CoreMotion.framework */,
+				6C614162190C70DC00535009 /* Foundation.framework */,
+				6C614164190C70DC00535009 /* CoreGraphics.framework */,
+				6C614166190C70DC00535009 /* UIKit.framework */,
+				6C614184190C70DC00535009 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C614168190C70DC00535009 /* Pedometer */ = {
+			isa = PBXGroup;
+			children = (
+				6C614171190C70DC00535009 /* AppDelegate.h */,
+				6C614172190C70DC00535009 /* AppDelegate.m */,
+				6C614174190C70DC00535009 /* Main.storyboard */,
+				6C614177190C70DC00535009 /* FirstViewController.h */,
+				6C614178190C70DC00535009 /* FirstViewController.m */,
+				6C61417A190C70DC00535009 /* SecondViewController.h */,
+				6C61417B190C70DC00535009 /* SecondViewController.m */,
+				6C61417D190C70DC00535009 /* Images.xcassets */,
+				6C614169190C70DC00535009 /* Supporting Files */,
+			);
+			path = Pedometer;
+			sourceTree = "<group>";
+		};
+		6C614169190C70DC00535009 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C61416A190C70DC00535009 /* Pedometer-Info.plist */,
+				6C61416B190C70DC00535009 /* InfoPlist.strings */,
+				6C61416E190C70DC00535009 /* main.m */,
+				6C614170190C70DC00535009 /* Pedometer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C61418A190C70DC00535009 /* PedometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C614190190C70DC00535009 /* PedometerTests.m */,
+				6C61418B190C70DC00535009 /* Supporting Files */,
+			);
+			path = PedometerTests;
+			sourceTree = "<group>";
+		};
+		6C61418B190C70DC00535009 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C61418C190C70DC00535009 /* PedometerTests-Info.plist */,
+				6C61418D190C70DC00535009 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C61415E190C70DC00535009 /* Pedometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C614194190C70DC00535009 /* Build configuration list for PBXNativeTarget "Pedometer" */;
+			buildPhases = (
+				6C61415B190C70DC00535009 /* Sources */,
+				6C61415C190C70DC00535009 /* Frameworks */,
+				6C61415D190C70DC00535009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pedometer;
+			productName = Pedometer;
+			productReference = 6C61415F190C70DC00535009 /* Pedometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C614182190C70DC00535009 /* PedometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C614197190C70DC00535009 /* Build configuration list for PBXNativeTarget "PedometerTests" */;
+			buildPhases = (
+				6C61417F190C70DC00535009 /* Sources */,
+				6C614180190C70DC00535009 /* Frameworks */,
+				6C614181190C70DC00535009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C614189190C70DC00535009 /* PBXTargetDependency */,
+			);
+			name = PedometerTests;
+			productName = PedometerTests;
+			productReference = 6C614183190C70DC00535009 /* PedometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C614157190C70DC00535009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = okito.kagechika;
+				TargetAttributes = {
+					6C614182190C70DC00535009 = {
+						TestTargetID = 6C61415E190C70DC00535009;
+					};
+				};
+			};
+			buildConfigurationList = 6C61415A190C70DC00535009 /* Build configuration list for PBXProject "Pedometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C614156190C70DC00535009;
+			productRefGroup = 6C614160190C70DC00535009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C61415E190C70DC00535009 /* Pedometer */,
+				6C614182190C70DC00535009 /* PedometerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C61415D190C70DC00535009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6141A1190C712900535009 /* icon.png in Resources */,
+				6C61417E190C70DC00535009 /* Images.xcassets in Resources */,
+				6C61416D190C70DC00535009 /* InfoPlist.strings in Resources */,
+				6C614176190C70DC00535009 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C614181190C70DC00535009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C61418F190C70DC00535009 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C61415B190C70DC00535009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C61417C190C70DC00535009 /* SecondViewController.m in Sources */,
+				6C6141A0190C712900535009 /* AccelerometerFilter.m in Sources */,
+				6C614173190C70DC00535009 /* AppDelegate.m in Sources */,
+				6C614179190C70DC00535009 /* FirstViewController.m in Sources */,
+				6C61419F190C712900535009 /* Accelerometer.m in Sources */,
+				6C61416F190C70DC00535009 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C61417F190C70DC00535009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C614191190C70DC00535009 /* PedometerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C614189190C70DC00535009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C61415E190C70DC00535009 /* Pedometer */;
+			targetProxy = 6C614188190C70DC00535009 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C61416B190C70DC00535009 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C61416C190C70DC00535009 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C614174190C70DC00535009 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C614175190C70DC00535009 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C61418D190C70DC00535009 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C61418E190C70DC00535009 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C614192190C70DC00535009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C614193190C70DC00535009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C614195190C70DC00535009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pedometer/Pedometer-Prefix.pch";
+				INFOPLIST_FILE = "Pedometer/Pedometer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C614196190C70DC00535009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pedometer/Pedometer-Prefix.pch";
+				INFOPLIST_FILE = "Pedometer/Pedometer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6C614198190C70DC00535009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pedometer.app/Pedometer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pedometer/Pedometer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PedometerTests/PedometerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6C614199190C70DC00535009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pedometer.app/Pedometer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pedometer/Pedometer-Prefix.pch";
+				INFOPLIST_FILE = "PedometerTests/PedometerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C61415A190C70DC00535009 /* Build configuration list for PBXProject "Pedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C614192190C70DC00535009 /* Debug */,
+				6C614193190C70DC00535009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C614194190C70DC00535009 /* Build configuration list for PBXNativeTarget "Pedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C614195190C70DC00535009 /* Debug */,
+				6C614196190C70DC00535009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C614197190C70DC00535009 /* Build configuration list for PBXNativeTarget "PedometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C614198190C70DC00535009 /* Debug */,
+				6C614199190C70DC00535009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C614157190C70DC00535009 /* Project object */;
+}

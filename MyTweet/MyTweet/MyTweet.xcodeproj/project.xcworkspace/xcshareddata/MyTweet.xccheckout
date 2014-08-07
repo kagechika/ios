@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A11F7C30-03B5-47B1-9D03-218B07593F77</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyTweet</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CCC7DEF4-3428-4E1A-91B5-74319BF85645</key>
+		<string>https://bitbucket.org/ktkgchk/ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyTweet/MyTweet/MyTweet.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CCC7DEF4-3428-4E1A-91B5-74319BF85645</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/ktkgchk/ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CCC7DEF4-3428-4E1A-91B5-74319BF85645</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CCC7DEF4-3428-4E1A-91B5-74319BF85645</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_dev</string>
+		</dict>
+	</array>
+</dict>
+</plist>
